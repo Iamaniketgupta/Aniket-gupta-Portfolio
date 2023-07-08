@@ -2,10 +2,7 @@ html{
     scroll-behavior: smooth;
     scroll-padding-top: 15px;
 }
-*{
-    margin: 0;
-    padding: 0;
-}
+
 a{
     text-decoration: none;
     color: unset;
@@ -17,8 +14,6 @@ a{
     font-weight: 500;
     font-size: 15px;
     flex-direction: row-reverse;
-    box-shadow: 0px 0px 8px black;
-    padding: 0;
     
 }
 #dr-btn{
@@ -29,7 +24,7 @@ a{
 }
 .app-icn-s{
 padding: 0 1rem;
-font-size: 2em;
+font-size: 1.75rem;
 cursor: pointer;
 }
 .social-icons-top{
@@ -105,7 +100,7 @@ cursor: pointer;
     align-items: center;
     justify-content: center;
     font-weight: 700;
-    font-size:3.75rem;
+    font-size:3rem;
     margin: 0.25em auto;
 }
 
@@ -217,7 +212,7 @@ cursor: pointer;
     font-size: large;
     margin: 20px auto;
     padding: 5px;
-
+    text-align: left;
 }
 .heading{
     border-radius: 40px;
@@ -257,6 +252,7 @@ cursor: pointer;
 .cr-head{
    font-size: 1.75rem;
    margin:1rem auto;
+    text-align: center;
 }
 
 .cd-container{
@@ -278,6 +274,7 @@ cursor: pointer;
     border-style: solid;
     border-width: 3px;
     border-radius: 10px;
+    text-align: left;
 }
 .cd-box:hover{
     box-shadow: 0px 0px 8px black; 
