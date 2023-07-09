@@ -7,7 +7,7 @@ a{
     text-decoration: none;
     color: unset;
 }
-
+/* navigation styling */
 .my-nav{
     color: black;
     font-weight: 500;
@@ -17,6 +17,12 @@ a{
 .navbar{
     background-color: #ffffff;
     box-shadow: 0 1px 3px black;
+}
+.navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    word-spacing: -6px;
 }
 
 #dr-btn{
@@ -54,7 +60,7 @@ cursor: pointer;
     box-shadow: 0px 0px 2px black;
 
 }
-
+/* main intro styling */
 #profile-pic{
     width: 150px;
     height: 150px;
@@ -74,12 +80,7 @@ cursor: pointer;
     width: fit-content;
 }
 
-.navbar-brand {
-    font-size: 25px;
-    font-weight: bold;
-    text-decoration: none;
-    word-spacing: -6px;
-}
+/* aniket gupta style */
 
 .A,
 .k,
@@ -113,7 +114,7 @@ cursor: pointer;
     font-size:3rem;
     margin: 0.25em auto;
 }
-
+/* type writer text */
 .intro-text{
     flex-wrap: wrap;
     flex-direction: column;
@@ -191,7 +192,7 @@ cursor: pointer;
     box-shadow: 0px 0px 3px black;
 } 
 
-
+/* main section starts */
 
 .main-container{
     display: flex;
@@ -199,6 +200,7 @@ cursor: pointer;
     flex-wrap: wrap;
     margin: 4rem auto;
 }
+/* About section */
 .info{
     border-top: #f14444;
     border-bottom: #fbbc05;
@@ -232,6 +234,7 @@ cursor: pointer;
     padding: 2px;
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 2rem;
     align-items: center;
     justify-content: center;
 }
@@ -239,8 +242,9 @@ cursor: pointer;
     width:35px;
     height:35px;
     border-radius: 50%;
-
 }
+
+/* skills section */
 .carousel{
     margin:0 auto;
     margin-top: 20px;  
@@ -265,6 +269,7 @@ cursor: pointer;
     text-align: center;
 }
 
+/* projects section */
 .cd-container{
     display: flex;
     flex-wrap: wrap;
@@ -302,13 +307,13 @@ cursor: pointer;
     border-width: 2px;
 
 }
-
+/* education section */
 .ed-main{
     background-color: #ffffff;
     margin: 0 auto;
     margin-top: 2rem;
     padding: 30px;
-    box-shadow: 0px 0px 3px black; 
+    box-shadow: 0px 0px 4px black; 
     width: 300px;
     border-bottom: 10px solid rebeccapurple;
     border-top: 10px solid rebeccapurple;
@@ -328,7 +333,7 @@ cursor: pointer;
     display: flex;
     flex-wrap: wrap;
 }
-/* contact section css */
+/* contact  and footer section css */
 #contact{
     display: flex;
     flex-wrap: wrap;
