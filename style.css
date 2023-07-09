@@ -260,9 +260,14 @@ cursor: pointer;
     font-weight: 600;
     width:80%;
     margin:0 auto;
-    margin-bottom: 20px;  
-
+    margin-bottom: 20px;
 }
+.cr-icn{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
 .cr-head{
    font-size: 1.75rem;
    margin:1rem auto;
@@ -318,8 +323,9 @@ cursor: pointer;
     border-bottom: 10px solid rebeccapurple;
     border-top: 10px solid rebeccapurple;
     border-radius: 10px;
-
+    text-align:left;
 }
+
 .ed-main:hover{
     box-shadow: 0px 0px 8px black; 
 }
