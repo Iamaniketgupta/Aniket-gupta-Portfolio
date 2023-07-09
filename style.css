@@ -10,17 +10,35 @@ a{
 
 .my-nav{
     color: black;
-    background-color: white;
     font-weight: 500;
     font-size: 15px;
-    flex-direction: row-reverse;
-    
+    flex-direction: row-reverse;   
 }
+.navbar{
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px black;
+}
+
 #dr-btn{
     display: none;
 }
 .dr-li-con{
     border-style: none;
+    background-color:transparent;
+}
+.dropdown-item{
+    padding:5px 10px;
+    display:inline-block;
+    width: fit-content;
+}
+.dropdown-item:active{
+    background-color:transparent;
+}
+.dropdown-item:hover{
+    background-color: transparent;
+}
+.social-icons-top:hover{
+    box-shadow: 1px 1px 3px black;
 }
 .app-icn-s{
 padding: 0 1rem;
@@ -35,14 +53,6 @@ cursor: pointer;
     border-radius:50% ;
     box-shadow: 0px 0px 2px black;
 
-}
-.icn-hide{
-    background-color: pink;
-    position: relative;
-   bottom:25px;
-   left:45px;
-    width:12px;
-    height: 10px;
 }
 
 #profile-pic{
@@ -65,7 +75,7 @@ cursor: pointer;
 }
 
 .navbar-brand {
-    font-size: 32px;
+    font-size: 25px;
     font-weight: bold;
     text-decoration: none;
     word-spacing: -6px;
@@ -226,8 +236,8 @@ cursor: pointer;
     justify-content: center;
 }
 .namaste{
-    width:30px;
-    height:30px;
+    width:35px;
+    height:35px;
     border-radius: 50%;
 
 }
@@ -290,23 +300,27 @@ cursor: pointer;
     border-right: #70c55e;
     border-style: solid;
     border-width: 2px;
+
 }
 
 .ed-main{
     background-color: #ffffff;
-    margin: 3rem auto;
+    margin: 0 auto;
+    margin-top: 2rem;
     padding: 30px;
     box-shadow: 0px 0px 3px black; 
     width: 300px;
     border-bottom: 10px solid rebeccapurple;
     border-top: 10px solid rebeccapurple;
+    border-radius: 10px;
+
 }
 .ed-main:hover{
     box-shadow: 0px 0px 8px black; 
 }
-@media(max-width:990px){
+@media(min-width:838px){
     .ed-main{
-        margin-top: 2rem;
+        margin-top: 3rem;
 
     }
 }
@@ -342,6 +356,7 @@ text-align: center;
 width: fit-content;
 font-size: 2em;
 box-shadow: 2px 2px 8px black;
+transition: background-color 1.2s ease-in-out ;
 }
 
 .con-btn:hover{
@@ -349,7 +364,6 @@ background-color: #fbbc05;
 }
 .con-btn:active{
 box-shadow: none;
-
 }
 
 .social{
