@@ -1,23 +1,26 @@
-html{
+html {
     scroll-behavior: smooth;
-    scroll-padding-top: 15px;
+    scroll-padding-top: 2rem;
 }
 
-a{
+a {
     text-decoration: none;
     color: unset;
 }
+
 /* navigation styling */
-.my-nav{
+.my-nav {
     color: black;
     font-weight: 500;
     font-size: 15px;
-    flex-direction: row-reverse;   
+    flex-direction: row-reverse;
 }
-.navbar{
+
+.navbar {
     background-color: #ffffff;
     box-shadow: 0 1px 3px black;
 }
+
 .navbar-brand {
     font-size: 25px;
     font-weight: bold;
@@ -25,43 +28,51 @@ a{
     word-spacing: -6px;
 }
 
-#dr-btn{
+#dr-btn {
     display: none;
 }
-.dr-li-con{
+
+.dr-li-con {
     border-style: none;
-    background-color:transparent;
-}
-.dropdown-item{
-    padding:5px 10px;
-    display:inline-block;
-    width: fit-content;
-}
-.dropdown-item:active{
-    background-color:transparent;
-}
-.dropdown-item:hover{
     background-color: transparent;
 }
-.social-icons-top:hover{
+
+.dropdown-item {
+    padding: 5px 10px;
+    display: inline-block;
+    width: fit-content;
+}
+
+.dropdown-item:active {
+    background-color: transparent;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+}
+
+.social-icons-top:hover {
     box-shadow: 1px 1px 3px black;
 }
-.app-icn-s{
-padding: 0 1rem;
-font-size: 1.75rem;
-cursor: pointer;
+
+.app-icn-s {
+    padding: 0 1rem;
+    font-size: 1.75rem;
+    cursor: pointer;
 }
-.social-icons-top{
-   
+
+.social-icons-top {
+
     width: 50px;
     height: 50px;
     padding: 5px;
-    border-radius:50% ;
+    border-radius: 50%;
     box-shadow: 0px 0px 2px black;
 
 }
+
 /* main intro styling */
-#profile-pic{
+#profile-pic {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -73,7 +84,8 @@ cursor: pointer;
     border-width: 2px;
     box-shadow: 0 0 8px black;
 }
-.profile-pic-con{
+
+.profile-pic-con {
     margin: 0 auto;
     margin-top: 3rem;
     height: fit-content;
@@ -111,66 +123,73 @@ cursor: pointer;
     align-items: center;
     justify-content: center;
     font-weight: 700;
-    font-size:3rem;
+    font-size: 3rem;
     margin: 0.25em auto;
 }
+
 /* type writer text */
-.intro-text{
+.intro-text {
     flex-wrap: wrap;
     flex-direction: column;
-    width:90%;
+    width: 90%;
     justify-content: center;
     align-items: center;
 }
-  h2 {
+
+h2 {
     font-size: clamp(1rem, 3vw + 1rem, 2.5rem);
     font-family: "Source Code Pro", monospace;
     position: relative;
     width: max-content;
-  }
-  
-  .text.my-text::before{
+}
+
+.text.my-text::before {
     content: "";
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    border-left:2px solid black;
+    border-left: 2px solid black;
     background-color: white;
     animation: animate 4000ms steps(20) infinite;
-  }
-  @keyframes animate {
-    40%, 60%{
-        left:calc(100% + 4px);
-    }
-    100%{
-        left:0%;
-    }
-  }
+}
 
-  .subtitle {
+@keyframes animate {
+
+    40%,
+    60% {
+        left: calc(100% + 4px);
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+.subtitle {
     color: hsl(0 0% 0% / 0.7);
     font-size: 1rem;
     font-weight: 400;
     opacity: 0;
     transform: translateY(1rem);
     animation: fadeInUp 5s ease 2s infinite forwards;
-  }
+}
 
-  @keyframes fadeInUp {
-   to{
-      opacity: 1;
-      transform: translateY(0);
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
- 
-  }
-  
-.container-sm{
-    display:flex;
+
+}
+
+.container-sm {
+    display: flex;
     justify-content: center;
 }
-.btn-s{
+
+.btn-s {
     width: 620px;
     background-color: white;
     border-radius: 50px;
@@ -179,29 +198,33 @@ cursor: pointer;
     text-align: left;
     border: 1px solid black;
 }
-.material-symbols-outlined{
+
+.material-symbols-outlined {
     position: relative;
     left: 5px;
     top: 3px;
 }
-.app-icn{
+
+.app-icn {
     left: 0;
-    top :0;
+    top: 0;
 }
-.btn-s:hover{
+
+.btn-s:hover {
     box-shadow: 0px 0px 3px black;
-} 
+}
 
 /* main section starts */
 
-.main-container{
+.main-container {
     display: flex;
     margin-top: 200px;
     flex-wrap: wrap;
     margin: 4rem auto;
 }
+
 /* About section */
-.info{
+.info {
     border-top: #f14444;
     border-bottom: #fbbc05;
     border-left: #6182f6;
@@ -215,18 +238,21 @@ cursor: pointer;
     text-align: justify;
     border-radius: 40px;
 }
-@media(max-width:500px){
-.info{
-    padding: 20px;
+
+@media(max-width:500px) {
+    .info {
+        padding: 20px;
+    }
 }
-}
-.des{
+
+.des {
     font-size: large;
     margin: 20px auto;
     padding: 5px;
     text-align: left;
 }
-.heading{
+
+.heading {
     border-radius: 40px;
     background-color: white;
     width: 100%;
@@ -238,53 +264,59 @@ cursor: pointer;
     align-items: center;
     justify-content: center;
 }
-.namaste{
-    width:35px;
-    height:35px;
+
+.namaste {
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
 }
 
 /* skills section */
-.carousel{
-    margin:0 auto;
-    margin-top: 20px;  
+.carousel {
+    margin: 0 auto;
+    margin-top: 20px;
     border-radius: 20px;
 }
-.cr-buttons{
+
+.cr-buttons {
     position: relative;
     bottom: -40px;
 }
-.cr-list{
+
+.cr-list {
     list-style-type: none;
     font-size: larger;
     font-weight: 600;
-    width:80%;
-    margin:0 auto;
+    width: 80%;
+    margin: 0 auto;
     margin-bottom: 20px;
 }
-.cr-icn{
-    width:20px;
+
+.cr-icn {
+    width: 20px;
     height: 20px;
     border-radius: 50%;
 }
 
-.cr-head{
-   font-size: 1.75rem;
-   margin:1rem auto;
+.cr-head {
+    font-size: 1.75rem;
+    margin: 1rem auto;
     text-align: center;
 }
 
 /* projects section */
-.cd-container{
+.cd-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-evenly;
 }
-.card-img-top{
-    width:30%;
+
+.card-img-top {
+    width: 30%;
 }
-.cd-box{
+
+.cd-box {
     margin-top: 2rem;
     box-shadow: 0px 0px 15px rgb(0, 0, 0);
     border-top: #f14444;
@@ -296,10 +328,13 @@ cursor: pointer;
     border-radius: 10px;
     text-align: left;
 }
-.cd-box:hover{
-    box-shadow: 0px 0px 8px black; 
+
+.cd-box:hover {
+    box-shadow: 0px 0px 8px black;
 }
-.cd-btn,.con-btn{
+
+.cd-btn,
+.con-btn {
     background-color: white;
     color: #01012d;
     font-weight: 700;
@@ -312,94 +347,103 @@ cursor: pointer;
     border-width: 2px;
 
 }
+
 /* education section */
-.ed-main{
+.ed-main {
     background-color: #ffffff;
     margin: 0 auto;
     margin-top: 2rem;
     padding: 30px;
-    box-shadow: 0px 0px 4px black; 
+    box-shadow: 0px 0px 4px black;
     width: 300px;
     border-bottom: 10px solid rebeccapurple;
     border-top: 10px solid rebeccapurple;
     border-radius: 10px;
-    text-align:left;
+    text-align: left;
 }
 
-.ed-main:hover{
-    box-shadow: 0px 0px 8px black; 
+.ed-main:hover {
+    box-shadow: 0px 0px 8px black;
 }
-@media(min-width:838px){
-    .ed-main{
+
+@media(min-width:838px) {
+    .ed-main {
         margin-top: 3rem;
 
     }
 }
-.ed-container{
+
+.ed-container {
     display: flex;
     flex-wrap: wrap;
 }
+
 /* contact  and footer section css */
-#contact{
+#contact {
     display: flex;
     flex-wrap: wrap;
-    background-color:whitesmoke;
-    width:100% ;
+    background-color: whitesmoke;
+    width: 100%;
     justify-content: center;
     align-items: center;
     background-color: none;
     border-width: 0;
     box-shadow: none;
     border-radius: 0;
-    
+
 }
-.main-con-container{
+
+.main-con-container {
     background-color: #f4f4f4;
 
 }
-.social-head{
-box-shadow: none;
-background: none;
-text-align: center;
+
+.social-head {
+    box-shadow: none;
+    background: none;
+    text-align: center;
 
 }
-.con-btn{
-width: fit-content;
-font-size: 2em;
-box-shadow: 2px 2px 8px black;
-transition: background-color 1.2s ease-in-out ;
+
+.con-btn {
+    width: fit-content;
+    font-size: 2em;
+    box-shadow: 2px 2px 8px black;
+
 }
 
-.con-btn:hover{
-background-color: #fbbc05;
-}
-.con-btn:active{
-box-shadow: none;
+.con-btn:hover {
+    background-color: #000000;
+    color: #ffffff;
 }
 
-.social{
-display: flex;
-flex-wrap: nowrap;
-padding: 2rem;
+.con-btn:active {
+    box-shadow: none;
 }
-.social-icn{
+
+.social {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 2rem;
+}
+
+.social-icn {
     font-size: 4rem;
     margin-right: 2rem;
     margin-left: 2rem;
     text-shadow: 2px 2px 2px black;
 }
-.social-icn:hover{
+
+.social-icn:hover {
     text-shadow: 0 0 10px black;
-    font-size:4.5rem
+    font-size: 4.5rem
 }
 
-.footer{
-    color:black;
+.footer {
+    color: black;
     height: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-
