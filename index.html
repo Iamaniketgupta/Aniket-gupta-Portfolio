@@ -91,26 +91,6 @@
 
         <h2 class="text my-text"></h2>
         <p class="subtitle">Welcome to my portfolio!</p>
-        <script>
-            const text = document.querySelector(".my-text");
-            const textLoad = () => {
-                setTimeout(() => {
-                    text.textContent = "Web Developer."
-                }, 0);
-                setTimeout(() => {
-                    text.textContent = "Quick Learner."
-                }, 4000);
-                setTimeout(() => {
-                    text.textContent = "Tech Enthusiast."
-                }, 8000);
-                setTimeout(() => {
-                    text.textContent = "Programmer."
-                }, 12000);
-
-            }
-            textLoad();
-            setInterval(textLoad, 12000);
-        </script>
     </div>
 
     <div class="container-sm">
@@ -398,7 +378,23 @@
         </div>
 
     </div>
+    <script>
+        const text = document.querySelector(".my-text");
+        const textLoad = () => {
+            setTimeout(() => {
+                text.textContent = "Programmer."
+            }, 0);
+            setTimeout(() => {
+                text.textContent = "Tech Enthusiast."
+            }, 4000);
+            setTimeout(() => {
+                text.textContent = "Quick Learner."
+            }, 8000);
 
+        }
+        textLoad();
+        setInterval(textLoad, 8000);
+    </script>
 </body>
 
 </html>
